@@ -1,0 +1,23 @@
+body {
+    /* Rich Charcoal slate background */
+    background: radial-gradient(circle at 50% 0%, #051b3c 0%, #172a55 60%, #041134 100%);
+}
+
+h1 span {
+    /* Luxury Emerald Green Gradient Liquid Text */
+    background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 4px 12px rgba(52, 211, 153, 0.3));
+}
+
+h2::before {
+    /* Emerald accent box */
+    background-color: #34d399;
+    box-shadow: 0 0 10px #34d399;
+}
+
+figure:hover {
+    border-color: rgba(50, 88, 170, 0.4);
+    box-shadow: 0 40px 80px -15px rgba(86, 132, 191, 0.9), 0 0 40px rgba(97, 97, 211, 0.1);
+}
